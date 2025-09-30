@@ -1,36 +1,34 @@
-# Airbnb Clone: Features and Functionalities
+# Features and Functionalities
 
-This document outlines the key features and backend functionalities required for the Airbnb Clone project.
+The backend of the **Airbnb Clone** will have the following key features:
 
-## 🧑 User Authentication
-- User registration (email, password)
-- Login/Logout functionality
-- Password hashing and security
-- Role-based access: Guest, Host, Admin
+### 1. **User Authentication**
+- User registration (sign-up)
+- User login (sign-in)
+- User logout (sign-out)
+- Role-based access control (guest, host, admin)
 
-## 🏠 Property Management
-- Create and update property listings
-- Upload property images
-- Manage availability and pricing
-- View all listed properties
+### 2. **Property Management**
+- Hosts can add properties
+- Properties include details such as name, description, location, price, and availability
+- Users can view available properties
 
-## 📅 Booking System
-- Book available properties
-- View booking history
-- Cancel reservations
-- Automated availability update
+### 3. **Booking System**
+- Guests can book properties
+- Hosts can manage bookings (approve/cancel)
+- Bookings include details such as check-in/check-out dates and total price
 
-## 💳 Payment Integration
-- Secure payment processing
-- Payment confirmation and receipts
-- Refund logic for cancellations
+### 4. **Payment Integration**
+- Payments can be made through PayPal, Stripe, or credit card
+- A secure payment gateway integration
 
-## 🛠 Admin Panel
-- View all users and properties
-- Delete abusive listings or users
-- Generate system-wide reports
+### 5. **Review and Rating System**
+- Guests can leave reviews for properties they have stayed at
+- Reviews will include a rating (1-5 stars) and a text comment
 
-## ⚙️ System Functionality
-- API support for mobile/web frontend
-- Database indexing and optimization
-- Logging, error handling, and validation
+### 6. **Messaging System**
+- Users can send messages to hosts and vice versa
+- Messages are stored for future reference
+
+## Diagram
+
