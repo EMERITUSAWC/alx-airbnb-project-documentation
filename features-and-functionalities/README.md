@@ -1,38 +1,46 @@
-<<<<<<< HEAD
-# Features and Functionalities
+# Airbnb Clone Backend – Features and Functionalities
 
-The backend of the **Airbnb Clone** will have the following key features:
+This document outlines the key backend features required for the Airbnb Clone application.
 
-### 1. **User Authentication**
-- User registration (sign-up)
-- User login (sign-in)
-- User logout (sign-out)
-- Role-based access control (guest, host, admin)
+## Core Features
 
-### 2. **Property Management**
-- Hosts can add properties
-- Properties include details such as name, description, location, price, and availability
-- Users can view available properties
+### 1. User Authentication
+- Register, login, and logout with JWT authentication.
+- Password hashing using bcrypt.
+- Profile management (update and delete account).
 
-### 3. **Booking System**
-- Guests can book properties
-- Hosts can manage bookings (approve/cancel)
-- Bookings include details such as check-in/check-out dates and total price
+### 2. Property Management
+- CRUD operations on property listings.
+- Upload and manage property images.
+- Filter listings by price, location, and amenities.
 
-### 4. **Payment Integration**
-- Payments can be made through PayPal, Stripe, or credit card
-- A secure payment gateway integration
+### 3. Booking Management
+- Create and manage bookings.
+- Prevent double booking by checking date overlap.
+- View booking history and cancellation options.
 
-### 5. **Review and Rating System**
-- Guests can leave reviews for properties they have stayed at
-- Reviews will include a rating (1-5 stars) and a text comment
+### 4. Payment Integration
+- Stripe integration for secure online payments.
+- Record payment transactions and statuses.
+- Handle refunds and payment verification.
 
-### 6. **Messaging System**
-- Users can send messages to hosts and vice versa
-- Messages are stored for future reference
+### 5. Notifications
+- Email notifications for new bookings and payments.
+- Admin notifications for new listings.
 
-## Diagram
+### 6. Admin Management
+- View and manage users and listings.
+- Moderate content and handle reports.
 
-=======
-# Airbnb Clone Backend Features and Functionalities
->>>>>>> 52241ea (Initial project structure setup for ALX Airbnb Backend Documentation)
+---
+
+## Supporting Features
+- Pagination and search filters for property browsing.
+- Rate limiting and API key security.
+- Activity logs and analytics dashboard.
+
+## Non-Functional Requirements
+- High availability and scalability.
+- Low response latency (< 500 ms).
+- RESTful API with proper status codes.
+- Database normalization and referential integrity.
