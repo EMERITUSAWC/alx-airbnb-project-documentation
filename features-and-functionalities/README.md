@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Features and Functionalities
 
 The backend of the **Airbnb Clone** will have the following key features:
@@ -32,3 +33,6 @@ The backend of the **Airbnb Clone** will have the following key features:
 
 ## Diagram
 
+=======
+# Airbnb Clone Backend Features and Functionalities
+>>>>>>> 52241ea (Initial project structure setup for ALX Airbnb Backend Documentation)
